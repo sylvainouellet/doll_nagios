@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: linux_Splunk
   become: true
   tasks:
     - name: Restart service SPLUNK in all cases
