@@ -1,4 +1,4 @@
-- hosts: s2splunkshp01
+- hosts: all
   become: true
   tasks:
     - name: Restart service SPLUNK in all cases
